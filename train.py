@@ -34,7 +34,7 @@ parser = argparse.ArgumentParser()
 # data set path
 parser.add_argument('--img_root_train', type=str, default="/C-DenseNet/dataset/train1/train/", help='whether to img root')
 # model and data storage path
-parser.add_argument('--checkpoint_dir', type=str, default='/C-DenseNet/results/169cbam/', help='directory where model checkpoints are saved')
+parser.add_argument('--checkpoint_dir', type=str, default='/C-DenseNet/results/C-DenseNet/', help='directory where model checkpoints are saved')
 # Network selection
 parser.add_argument('--net', dest='net',type=str, default='DenseNet',help='which net is chosen for training ')
 # batch size
