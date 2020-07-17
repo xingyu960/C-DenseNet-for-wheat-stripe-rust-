@@ -1,0 +1,8 @@
+conda create -n pytorch python=3.6
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0
+pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install tqdm -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install scikit-learn==0.19.1 -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install opencv-python -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install scipy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
