@@ -1,0 +1,3 @@
+https://github.com/xingyu960/C-DenseNet-for-wheat-stripe-rust-
+pip install -r requirements.txt
+
